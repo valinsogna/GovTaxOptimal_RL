@@ -1,7 +1,9 @@
 # TaxationPolicyRL
 
 ## Overview
-TaxationPolicyRL is a Reinforcement Learning (RL) project focused on simulating and optimizing taxation policies using various RL algorithms. The project utilizes a custom Gym environment to model the taxation system and applies algorithms like PPO, SAC, and TD3 to optimize policy decisions.
+TaxationPolicyRL is a Reinforcement Learning (RL) project focused on simulating and optimizing wealth taxation policies using various RL algorithms. The project utilizes a custom Gym environment to model the taxation system and applies algorithms like PPO and SAC to optimize policy decisions.
+
+This project was supervised by collaboration with researchers form Bank of Italy Aldo Glielmo and Valerio Astuti.
 
 ## Installation
 
@@ -12,7 +14,7 @@ TaxationPolicyRL is a Reinforcement Learning (RL) project focused on simulating 
 ### Steps
 1. Clone the Repository
    ```bash
-   git clone https://github.com/bancaditalia/EconMARL-sims.git
+   git clone https://github.com/valinsogna/GovTaxOptimal_RL.git
    ```
 2. Install dependencies:
     ```bash
@@ -41,3 +43,5 @@ TaxationPolicyRL is a Reinforcement Learning (RL) project focused on simulating 
 - `config.py`: Configuration script for setting up model parameters and options.
 - `requirements.txt`: List of dependencies for the project.
 - `README.md`: This file, containing project information and instructions.
+- `results/`: Folder for results storage.
+- `baseline/`: Comparable baseline algorithm Multi-Objective PSO.
