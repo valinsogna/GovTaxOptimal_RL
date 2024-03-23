@@ -1,0 +1,14 @@
+numpy
+matplotlib
+pandas
+gym
+torch
+stable-baselines3
+wandb
+tqdm
+shimmy>=0.2.1
+tensorboard
+platypus-opt
+kaleido
+plotly
+pyswarms
