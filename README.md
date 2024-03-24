@@ -32,7 +32,10 @@ This project was supervised by collaboration with researchers form Bank of Italy
     ```bash
     python main.py
     ```
-
+- Run the main script with settings configured in config.json file:
+    ```bash
+    python main.py -f config.json
+    ```
 ### Evaluation
 - The project includes an evaluation script to assess the performance of the trained model.
 
